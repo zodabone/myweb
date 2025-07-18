@@ -1,6 +1,124 @@
-<html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Wing ไก่ทอดพรีเมียม</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #fbeee6 0%, #e6b980 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0 10px 0;
+        }
+        .logo img {
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid #d4af37;
+            background: white;
+            box-shadow: 0 4px 16px #c59f46;
+        }
+        .headline {
+            text-align: center;
+            font-size: 2.5em;
+            color: #b8860b;
+            letter-spacing: 2px;
+            margin-top: 10px;
+        }
+        .advert {
+            text-align: center;
+            font-size: 1.3em;
+            color: #6b4825;
+            margin: 14px 0 30px 0;
+        }
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+        .product {
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 4px 26px #e8d5b9;
+            width: 300px;
+            text-align: center;
+            padding: 24px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: translateY(-10px) scale(1.04);
+            box-shadow: 0 8px 36px #e8d5b9;
+        }
+        .product img {
+            width: 220px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid #ffe69c;
+            margin-bottom: 18px;
+        }
+        .product .name {
+            font-weight: bold;
+            color: #7b4318;
+            font-size: 1.2em;
+        }
+        .product .price {
+            color: #c59f46;
+            font-size: 1.4em;
+            margin: 12px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #96703a;
+            padding: 22px 0 12px 0;
+            background: #fff8ee;
+            font-size: 1em;
+            letter-spacing: 1px;
+            border-top: 2px solid #f3e2c1;
+        }
+    </style>
+</head>
 <body>
-<h1>Your Name Here</h1>
-<h2> Your student code here</h2>
+
+    <div class="logo">
+        <!-- ถ้ามีไฟล์โลโก้เองให้นำมาใส่แทนที่ src ได้เลย -->
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/abstract-1238247_1280.jpg" alt="Golden Wing Logo">
+    </div>
+
+    <div class="headline">Golden Wing ไก่ทอดพรีเมียม</div>
+    <div class="advert">"กรอบนอก นุ่มใน! รสชาติพรีเมียม สูตรลับเฉพาะสไตล์ Golden Wing ที่คุณต้องลอง 🍗✨"</div>
+
+    <div class="product-list">
+        <div class="product">
+            <img src="https://www.momstouchthailand.com/wp-content/uploads/2022/10/Boned_Soy-Garlic-Chicken-Image.png" alt="Crispy Fried Chicken">
+            <div class="name">ไก่ทอดกรอบพิเศษ</div>
+            <div class="price">69 บาท</div>
+            <div>กรอบอร่อย เสิร์ฟคู่ซอสสูตรพิเศษ!</div>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKcO9yy1htOnG0uQP2GaNw6wwjbQZEMuBpA&s" alt="Spicy Fried Chicken">
+            <div class="name">ไก่ทอดสไปซี่</div>
+            <div class="price">75 บาท</div>
+            <div>จัดจ้านถึงใจ รสชาติสไตล์เกาหลี</div>
+        </div>
+        <div class="product">
+            <img src="https://img.freepik.com/premium-photo/crispy-fried-chicken-legs-classic-stilllife-transparency-opacity_899449-45541.jpg" alt="Premium Wings">
+            <div class="name">ปีกไก่พรีเมียม</div>
+            <div class="price">60 บาท</div>
+            <div>ใช้ปีกไก่คัดพิเศษ สดใหม่ทุกวัน</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Golden Wing ไก่ทอดพรีเมียม | สวรรค์ของคนรักไก่ทอด
+    </div>
 </body>
 </html>
